@@ -1,0 +1,33 @@
+{
+  "name": "ts-node-template",
+  "version": "1.0.0",
+  "description": "Typescript Node Starter Kit (Template)",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon",
+    "serve": "node dist/server.js",
+    "start": "npm run serve",
+    "lint": "eslint --ext .js,.ts"
+  },
+  "keywords": [
+    "Typescript",
+    "Node",
+    "ts-node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haricharank9/ts-node-template.git"
+  },
+  "author": "HARI CHARAN K",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.19",
+    "@typescript-eslint/eslint-plugin": "^4.11.1",
+    "@typescript-eslint/parser": "^4.11.1",
+    "eslint": "^7.17.0",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
